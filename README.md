@@ -5,6 +5,6 @@ The curent implementation only explores basic angular routing but it should also
 The star map is still being researched (hard to both get location and time).
 
 TODO:
-*current weather
-*currently visible constelations list
-*special events? (ISS, comets etc.)
+* current weather
+* currently visible constelations list
+* special events? (ISS, comets etc.)
