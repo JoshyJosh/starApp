@@ -1,3 +1,8 @@
 'use strict';
 
-angular.module('starApp', ['appStringer', 'skyMap']);
+angular.module('starApp', [
+  'ngRoute',
+  'appStringer',
+  'skyMap',
+  'page404'
+]);

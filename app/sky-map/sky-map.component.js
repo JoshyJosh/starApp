@@ -5,6 +5,8 @@ angular.
   component('skyMap', {
     templateUrl: 'sky-map/sky-map.template.html',
     controller: function SkyMapController($scope) {
+      var curTime = Math.abs(new Date());
+
       // Option 1
       /*this.skymapUrl = "http://www.astrobot.eu/skymapserver/skymap?" +
                        "type=png&amp;size=500&amp;colorset=0&amp;lang=en&amp;" +
@@ -17,10 +19,11 @@ angular.
                       //image properties
                       "type=png&size=580&colorset=0&lang=en" +
                       //location
-                      "&lon=-73.94&lat=40.67&city=New+York+City" +
+                      "&lon=-73.94&lat=40.67&city=Ljubljana" +
                       // Time
                       /* Gotten by Math.abs(new Date("2015/10/20"))*/
-                      "&time=1445292000000" +
+                      //"&time=1445292000000" +
+                      "&time=" + curTime +
                       // Deco?
                       "&deco=16399"
     }

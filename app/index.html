@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
   <script src="app-stringer/app-stringer.module.js"></script>
   <script src="app-stringer/app-stringer.component.js"></script>
   <script src="sky-map/sky-map.module.js"></script>
   <script src="sky-map/sky-map.component.js"></script>
+  <script src="page-404/page-404.module.js"></script>
+  <script src="page-404/page-404.component.js"></script>
 </head>
 <body>
-  <sky-map></sky-map>
-  <app-stringer></app-stringer>
+  <!--<sky-map></sky-map>
+  <app-stringer></app-stringer>-->
+  <div ng-view></div>
 </body>
 </html>
