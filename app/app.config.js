@@ -7,15 +7,15 @@ angular.
       $locationProvider.hashPrefix('!');
 
       $routeProvider.
-      when('/', {
+      when('/sky-map', {
         template: '<sky-map></sky-map>'
       }).
-      when('/front-page', {
+      when('/', {
         template: '<app-stringer></app-stringer>'
       }).
       when('/404', {
         template: '<page-404></page-404>'
       }).
-        otherwise('/front-page');
+        otherwise('/');
     }
 ])

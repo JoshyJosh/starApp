@@ -1,0 +1,32 @@
+img {
+  width: 400px;
+  clear: both;
+  display: inline;
+  list-style: none;
+}
+
+li > div > a {
+  float: left;
+  clear: both;
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  border: 1px solid #4c4c4c;
+}
+
+li:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+li:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+li {
+  max-width: 500px;
+}
